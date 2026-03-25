@@ -13,7 +13,11 @@ The network consists of four Cisco 2911 routers and two 2960 switches arranged i
 * **Router 3 (Gateway):** Connects the Right LAN to the backbone.
 
 ## 🖼️ Topology Diagram
-![Network Topology](ospf.jpg)
+![Network Topology](topology/ospf.jpg)
+
+## 📉 Connectivity Proof (Ping Test)
+![Ping Test Results](topology/ping-ospf.jpg)
+
 
 ## 🔢 Logical IP Addressing Scheme
 To simplify troubleshooting and documentation, a consistent **10.A.B.x** addressing scheme was used for all serial backbone links:
